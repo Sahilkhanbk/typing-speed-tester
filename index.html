@@ -13,9 +13,11 @@
     <div class="container">
 
         <p id="target"> Javascript is super fun and awesome oay</p>
-        <textarea name="textarea" id="userv"></textarea>
+        <textarea name="textarea" id="userv" disabled></textarea>
         <time id="timer" datetime="">0s</time>
-        <button class="btn">Try again</button>
+        <button onclick="startGame()" class="start">start</button>
+        <button onclick="endGame()" class="done">Done</button>
+        <span id="result"></span>
 
     </div>
     <script src="script.js"></script>
