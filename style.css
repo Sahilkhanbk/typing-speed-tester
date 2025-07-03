@@ -18,3 +18,16 @@
     margin-top: 9rem;
     margin-left: 40rem;
 }
+
+.start {
+    padding: 10px;
+    width: 110px;
+    font-size: 1.5rem;
+    margin-left: 40rem;
+}
+
+.done {
+    padding: 10px;
+    width: 110px;
+    font-size: 1.5rem;
+}
